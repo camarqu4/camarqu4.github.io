@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarlosMarquez.me</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file for styling -->
+    <style>
+    /* Additional inline styles for specific elements */
+    header {
+        text-align: center; /* Center your name */
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex; /* Display nav items horizontally */
+        justify-content: center; /* Center the items horizontally */
+    }
+
+    nav li {
+        margin: 0 10px; /* Add some space between navigation items */
+    }
+
+    .social-icons img {
+        width: 20px; /* Adjust the size of social media icons */
+        height: 20px; /* Adjust the size of social media icons */
+    }
+
+    #about p {
+        margin-top: 20px; /* Add margin below the About Me heading */
+    }
+
+    /* Add background image to the body */
+    body {
+        background-image: url('Images/shapelined-_JBKdviweXI-unsplash.jpg'); /* Replace with your image file path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+</head>
+<body>
+    <header>
+      <div class="header-container">
+        <h1>Carlos Marquez</h1>
+        <div class="profile-image">
+            <img src="Images/heroShot.JPG" alt="Carlos Marquez">
+        </div>
+        </div>  
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+    <h2>About Me</h2>
+    <p>Welcome to my portfolio! I'm a passionate and creative individual who loves to explore the world of technology and design. With a background in Computer Information Systems, I'm dedicated to delivering innovative solutions and creating captivating digital experiences.</p>
+    <p>My journey in analytics has led me to work on a variety of exciting projects, where I've honed my skills in Data Cleaning, Preprocessing, and Visualization. I believe in continuous learning and staying up-to-date with the latest industry trends to provide the best solutions for my clients.</p>
+    <p>When I'm not coding or designing, you can find me training for long-distance runs, enjoying sporting events, and music festivals. I'm always up for a new challenge and eager to collaborate on exciting projects. Feel free to explore my portfolio and get in touch to discuss how we can work together.</p>
+</section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <table>
+        <thead>
+            <tr>
+                <th>Employer</th>
+                <th>Position</th>
+                <th>Notable Achievement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Leslie's Pool Company</td>
+                <td>Manufacturing Coordinator</td>
+                <td>Generated actionable insights from customer data analysis</td>
+            </tr>
+            <tr>
+                <td>Subzero-Wolf Inc </td>
+                <td>Sheet Metal Specialist</td>
+                <td>Successfully managed a cross-functional team to complete a complex project</td>
+            </tr>
+        </tbody>
+    </table>
+        </section>
+
+      <section id="resume">
+    <h2>Resume</h2>
+    <a href="2023_Marquez__Carlos_Resume.pdf" download>
+        <button>Download Resume</button>
+    </a>
+
+    <h3>Education</h3>
+    <p>
+        <strong>W. P. Carey School of Business, Arizona State University, Tempe, AZ</strong><br>
+        Bachelor of Science, Computer Information Systems<br>
+        Awards: Dean’s List, Seeds of Sustainability Award<br>
+        GPA: 3.04<br>
+        Graduation: May 2024
+    </p>
+
+    <h3>Professional Experience</h3>
+    <p>
+        <strong>Manufacturing Coordinator, Leslie's Pool Company, Phoenix, AZ</strong><br>
+        May 2023 – Present<br>
+        - Coordinated the manufacturing process, ensuring the timely production of pool equipment and accessories while meeting quality and safety standards.
+    </p>
+    <p>
+        <strong>Customer Service, Education at Work, Tempe, AZ</strong><br>
+        September 2022 – December 2022<br>
+        - Consulted and coordinated with internal departments, external plans, providers, businesses, and government agencies to obtain information and ensure the resolution of customer inquiries in a timely manner
+    </p>
+
+    <p>
+        <strong>Machine Operator, Sub-Zero, Goodyear, AZ</strong><br>
+        July 2020 – August 2022<br>
+        - Strategized methods of training new operators resulting in time savings and increased success with key performance indicators for trainees<br>
+        - Supported set-up and operation of Strippit, Flatbed, Brake Press, and Laser Cutter with consistent exceeds of efficiency and waste metrics
+    </p>
+
+    <p>
+        <strong>Pipeline Operator, Creek Pipe Company, Midland, TX</strong><br>
+        March 2020 – July 2020<br>
+        - Headed a crew of two to four technicians to provide safe, complete, and on-time delivery of contract work<br>
+        - Primary contact for the site manager. Coordinate crew activities onsite and provide daily project progress reports using Excel.
+    </p>
+
+    <h3>Leadership Experience</h3>
+    <p>
+        <strong>Squad Leader, eSquared Communication Consulting, Tempe, AZ</strong><br>
+        December 2017 - January 2019<br>
+        - Worked closely with the developers to remove redundancies in the client database.<br>
+        - Implemented Squad workflows that improved call times and first-call troubleshooting success rate.<br>
+        - Contributed to the successful project delivery for a device upgrade and database audit project.
+    </p>
+
+    <h3>Skills & Activities</h3>
+    <p>
+        <strong>Technical Skills:</strong> Microsoft Office (Excel, PowerPoint), Citrix, Salesforce, Classroom Experience with SQL, Python, Java, Tableau, PowerBI<br>
+        <strong>Spanish:</strong> Fluent in speech, intermediate levels of reading and writing ability- experience in an office setting
+    </p>
+</section>
+      
+        <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="process_form.php" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+
+        
+    </main>
+
+    
+
+  <h3>Where I am From</h3> 
+
+    <video controls width="640" height="360">
+        <source src="Images/Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+    <footer>
+      <p>&copy; 2023 Carlos Marquez</p>
+      <p>Email: camarqu4@asu.edu</p>
+      <div class="social-icons">
+          <a href="https://www.linkedin.com/"><img src="Images/linkdin logo.png" alt="LinkedIn"></a>
+          <a href="https://asu.joinhandshake.com/"><img src="Images/handshake logo.png" alt="HandShake"></a>
+          <a href="https://twitter.com/"><img src="Images/x logo.png" alt="X"></a>
+          <a href="https://www.facebook.com/Meta/"><img src="Images/meta logo.png" alt="Meta"></a>
+        </div>
+      </footer>
+</body>
+</html>
